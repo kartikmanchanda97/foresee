@@ -1,0 +1,56 @@
+.left {
+  width: 53%;
+  border-radius: 35px;
+  position: relative;
+}
+
+.left img {
+  width: 100%;
+  object-fit: cover;
+  height: 635px;
+  border-radius: 20px;
+}
+
+.left .leftHeader {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.badgeContainer {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.horizontalLine {
+  width: 150px;
+  height:7px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.left .leftForm {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left .leftForm form input {
+  opacity: 0.5;
+  width: 70%;
+  border-radius: 10px;
+  outline: none;
+  padding: 3px 0 3px 10px;
+}
+
+@media screen and (max-width: 1117px) {
+  .left {
+    width: 100%;
+  }
+}

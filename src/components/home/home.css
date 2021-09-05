@@ -1,0 +1,19 @@
+.mainContainer {
+    width: 70%;
+    box-shadow: 0 0 25px rgba(33, 33, 33, 0.8);
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1115px) {
+    .mainContainer {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mainContainer {
+      width: 90%;
+    }
+}
